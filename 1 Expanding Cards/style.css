@@ -20,12 +20,12 @@ body {
 }
 
 .panel {
-    background-size: auto 100%;
+    background-size: cover 100%;
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
-    border-radius : 50px;
-    color: #fff;
+    border-radius : 10rem;
+    color: black;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
@@ -34,10 +34,10 @@ body {
 }
 
 .panel h3 {
-    font-size: 24px;
+    font-size: 30px;
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 100px;
     margin: 0;
     opacity: 0;
 }
